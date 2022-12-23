@@ -35,7 +35,7 @@ modules:
     buildsystem: autotools
     sources:
       - type: git
-        url: 'https://github.com/ivmai/bdwgc.git'
+        url: https://github.com/ivmai/bdwgc.git
         tag: v7.6.6
     cleanup:
       - '*.a'
@@ -51,7 +51,7 @@ modules:
       - --disable-error-on-warning
     sources:
       - type: archive
-        url: 'https://ftp.gnu.org/gnu/guile/guile-2.2.4.tar.xz'
+        url: https://ftp.gnu.org/gnu/guile/guile-2.2.4.tar.xz
         sha256: d9e8b94af7b206fcf52bec6501b921bd7d0bd7a31fb7e896a35ba8253678e31e
     cleanup:
       - '*.a'
@@ -70,10 +70,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/trackballs/trackballs
-        tag: v1.3.3
-        commit: e78b05550fb594524d3f9271add59d467f798c27
+        tag: v1.3.4
+        commit: 0915f3a0dbb0c90bc5fe7c2e4745ad90f7052863
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
-      - type: patch
-        path: appdata.patch
