@@ -70,8 +70,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/trackballs/trackballs
-        tag: v1.3.4
-        commit: 0915f3a0dbb0c90bc5fe7c2e4745ad90f7052863
+        tag: v1.3.5
+        commit: 8bafb18f163d7da79f3f78ef4de4149a6b012e16
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
