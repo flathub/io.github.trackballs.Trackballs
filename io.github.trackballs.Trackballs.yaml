@@ -1,6 +1,6 @@
 app-id: io.github.trackballs.Trackballs
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: trackballs
 rename-appdata-file: trackballs.appdata.xml
@@ -64,6 +64,9 @@ modules:
       - /share/man
       - /share/aclocal
       - /lib/pkgconfig
+
+  - shared-modules/SDL2/SDL2_image.json
+  - shared-modules/SDL2/SDL2_ttf.json
 
   - name: trackballs
     buildsystem: cmake-ninja
