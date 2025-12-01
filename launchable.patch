@@ -1,0 +1,20 @@
+From f287a4901a109402f3e1546d69ae7bba224b9c86 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Matthias=20Mail=C3=A4nder?=
+ <Mailaender@users.noreply.github.com>
+Date: Mon, 1 Dec 2025 09:28:58 +0100
+Subject: [PATCH] Add desktop launchable.
+
+---
+ share/freedesktop/trackballs.appdata.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/share/freedesktop/trackballs.appdata.xml b/share/freedesktop/trackballs.appdata.xml
+index 104e914..95f5b90 100644
+--- a/share/freedesktop/trackballs.appdata.xml
++++ b/share/freedesktop/trackballs.appdata.xml
+@@ -48,4 +48,5 @@
+     <release version="1.2.1" date="2017-06-16" />
+     <release version="1.2.0" date="2017-06-04" />
+   </releases>
++  <launchable type="desktop-id">trackballs.desktop</launchable>
+ </component>
