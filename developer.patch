@@ -1,0 +1,24 @@
+From ce8fc3c2973b1c5541ca24fc37f9a290b3ffdf05 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Matthias=20Mail=C3=A4nder?=
+ <Mailaender@users.noreply.github.com>
+Date: Mon, 1 Dec 2025 09:13:58 +0100
+Subject: [PATCH] Add developer name.
+
+---
+ share/freedesktop/trackballs.appdata.xml | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/share/freedesktop/trackballs.appdata.xml b/share/freedesktop/trackballs.appdata.xml
+index 104e914..02c1b29 100644
+--- a/share/freedesktop/trackballs.appdata.xml
++++ b/share/freedesktop/trackballs.appdata.xml
+@@ -4,6 +4,9 @@
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-2.0+</project_license>
+   <name>Trackballs</name>
++  <developer id="io.github.trackballs">
++    <name>The Trackballs Project</name>
++  </developer>
+   <summary>Steer a marble ball through a labyrinth</summary>
+   <description>
+     <p>
