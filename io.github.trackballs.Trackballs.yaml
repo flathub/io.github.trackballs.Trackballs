@@ -80,3 +80,5 @@ modules:
           tag-pattern: ^v([\d.]+)$
       - type: patch
         path: developer.patch
+      - type: patch
+        path: launchable.patch
